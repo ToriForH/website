@@ -1,0 +1,12 @@
+.header__logo-image {
+    width: 101px;
+}
+
+.header__menu-item {
+    color: var(--header-color);
+    text-decoration: none;
+}
+
+.header__phone {
+    color: var(--annotattion-and-light-link-color);
+}

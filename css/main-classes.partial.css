@@ -1,0 +1,23 @@
+.classes__main-annotation {
+    color: var(--annotattion-and-light-link-color);
+    font-size: 11px;
+}
+
+.classes__main-title {
+    font-size: 30px;
+}
+
+.classes__main-subtitle {
+    font-size: 18px;
+    color: var(--subtitle-and-list-color);
+}
+
+.classes__carousel-annotation {
+    font-size: 11px;
+    color: var(--classes-level-color);
+}
+
+.classes__carousel-title {
+    font-size: 22px;
+    color: var(--dark-title-color);
+}

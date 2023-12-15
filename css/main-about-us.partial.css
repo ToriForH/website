@@ -1,0 +1,34 @@
+.about-header__annotation {
+    color: var(--annotattion-and-light-link-color);
+    font-size: 11px;
+}
+
+.about-header__title {
+    font-size: 30px;
+}
+
+.about-us__main-text,
+.about-us__content-text {
+    color: var(--text-color);
+}
+
+.about-us__content-title {
+    font-size: 18px;
+    color: var(--subtitle-and-list-color);
+}
+
+.about-us__list-title {
+    color: var(--footer-background-and-dark-link-and-list-color);
+}
+
+.about-us__list-line {
+    background-color: var(--annotattion-and-light-link-color);
+}
+
+.about-us__list-item {
+    color: var(--text-color);
+}
+
+.list-item-decoration {
+    color: var(--transform-background-and-list-and-line-color);
+}

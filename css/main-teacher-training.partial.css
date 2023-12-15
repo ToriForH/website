@@ -1,0 +1,24 @@
+.teacher__content-annotation {
+    font-size: 11px;
+    color: var(--annotattion-and-light-link-color);
+}
+
+.teacher__content-title {
+    font-size: 30px;
+}
+
+.teacher__content-subtitle {
+    font-size: 18px;
+    color: var(--dark-subtitle-color);
+}
+
+.teacher__content-text {
+    color: var(--text-color);
+}
+
+.teacher__content-link {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--light-title-and-link-color);
+    background-color: var(--annotattion-and-light-link-color);
+}

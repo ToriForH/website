@@ -1,0 +1,23 @@
+.transform-yourself__container {
+    background-color: var(--transform-background-and-list-and-line-color);
+}
+
+.transform-yourself__container-image {
+    width: 50px;
+}
+
+.transform-yourself__container-title {
+    font-size: 28px;
+}
+
+.transform-yourself__container-text {
+    font-size: 18px;
+    color: var(--subtitle-and-list-color);
+}
+
+.transform-yourself__container-link {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--light-title-and-link-color);
+    background-color: var(--annotattion-and-light-link-color);
+}

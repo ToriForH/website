@@ -1,0 +1,36 @@
+.join-us {
+    background-color: var(--join-background-color);
+}
+
+.join-us__content-annotation {
+    color: var(--additional-annotation-join-and-online-color);
+    font-size: 11px;
+}
+
+.join-us__content-title {
+    font-size: 30px;
+}
+
+.join-us__content-subtitle {
+    font-size: 18px;
+    color: var(--subtitle-and-list-color);
+}
+
+.join-us__content-text {
+    color: var(--text-color);
+}
+
+.content-list__item-image {
+    width: 20px;
+}
+
+.content-list__item {
+    color: var(--subtitle-and-list-color);
+}
+
+.join-us__content-link {
+    color: var(--footer-background-and-dark-link-and-list-color);
+    border: 1px solid;
+    border-bottom: var(--footer-background-and-dark-link-and-list-color);
+    text-decoration: none;
+}

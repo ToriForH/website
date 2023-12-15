@@ -1,0 +1,28 @@
+.testimonials__main-annotation,
+.testimonials__carousel-date {
+    font-size: 11px;
+    color: var(--annotattion-and-light-link-color);
+}
+
+.testimonials__main-title {
+    font-size: 30px;
+}
+
+.testimonials__main-subtitle {
+    font-size: 18px;
+    color: var(--subtitle-and-list-color);
+}
+
+.testimonials__carousel-photo {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.testimonials__carousel-client-name {
+    font-size: 22px;
+    color: var(--dark-title-color);
+}
+
+.testimonials__carousel-comment {
+    color: var(--text-color);
+}

@@ -1,0 +1,37 @@
+.special-offer {
+    background-color: var(--special-offer-background);
+}
+
+.special-offer__annotation {
+    font-size: 11px;
+    color: var(--annotattion-and-light-link-color);
+}
+
+.special-offer__title {
+    font-size: 46px;
+}
+
+.special-offer__subtitle {
+    font-size: 18px;
+    color: var(--subtitle-and-list-color);
+}
+
+.special-offer__text {
+    color: var(--additional-text-color);
+}
+
+.special-offer__link {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.link-start {
+    color: var(--light-title-and-link-color);
+    background-color: var(--annotattion-and-light-link-color);
+}
+
+.link-more {
+    color: var(--footer-background-and-dark-link-and-list-color);
+    border: 1px solid;
+    border-color: var(--footer-background-and-dark-link-and-list-color);
+}

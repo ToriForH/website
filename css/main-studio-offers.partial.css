@@ -1,0 +1,25 @@
+.studio-offers__item-title {
+    font-size: 22px;
+    color: var(--dark-title-color);
+}
+
+.studio-offers__item-text {
+    color: var(--text-color)
+}
+
+.studio-offers__item-image {
+    height: 50px;
+}
+
+.studio-offers__item-line {
+    background-color: var(--transform-background-and-list-and-line-color);
+}
+
+.stretch-line,
+.progress-line {
+    background-color: var(--pricing-background-and-line-stretch-progress-color);
+}
+
+.meditate-line {
+    background-color: var( --meditate-line-color);
+}

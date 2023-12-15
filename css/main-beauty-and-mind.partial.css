@@ -1,0 +1,20 @@
+.beauty-and-mind__content-annotation {
+    font-size: 11px;
+    color: var(--annotattion-and-light-link-color);
+}
+
+.beauty-and-mind__content-title {
+    font-size: 41px;
+}
+
+.beauty-and-mind__content-text {
+    font-size: 18px;
+    color: var(--dark-text-color);
+}
+
+.beauty-and-mind__content-link {
+    color: var(--light-title-and-link-color);
+    background-color: var(--annotattion-and-light-link-color);
+    font-size: 12px;
+    text-decoration: none;
+}

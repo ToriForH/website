@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans&display=swap'); /* Marcellus, Open Sans*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    --title-color: #1e2d4b;
+    --dark-title-color: #151f36;
+    --light-title-and-link-color: #ffffff;
+    --footer-background-and-dark-link-and-list-color: #2f3547;
+    --subtitle-and-list-color: #727682; 
+    --dark-subtitle-color: #2f3547b5;
+    --light-text-color: #ffffffc7;
+    --dark-text-color: #151f3685;
+    --text-color: #868b9b;
+    --additional-text-color: #6e7486;
+    --annotattion-and-light-link-color: #5995c5;
+    --additional-annotation-price-and-membership-color: #e3c39c;
+    --additional-annotation-join-and-online-color: #cbd0b0;
+    --classes-level-color: #2f35475e;
+    --pricing-background-and-line-stretch-progress-color: #fceedd;
+    --transform-background-and-list-and-line-color: #dceafd;
+    --header-color: #2f3547b3;
+    --footer-text-color: #ffffff99;
+    --footer-bottom-background-color: #292e3f;
+    --join-background-color: #f3f5e9;
+    --meditate-line-color: #dceadf;
+    --transform-border-color: #f8f8f8;
+    --special-offer-background: #e6e5e4;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Marcellus', sans-serif;
+    color: var(--title-color);
+}
+
+iframe {
+    display: block;
+    width: 100%;
+}
+
+hr {
+    border: 0;
+    width: 55px;
+    height: 3px;
+}

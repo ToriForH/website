@@ -1,0 +1,18 @@
+.footer__main-logo {
+    width: 69px;
+}
+
+.footer__main-title {
+    color: var(--light-title-and-link-color);
+}
+
+.footer__menu-item,
+.footer__bottom-link {
+    color: var(--annotattion-and-light-link-color);
+    text-decoration: none;
+}
+
+.footer__main-text,
+.footer__bottom-copyright {
+    color: var(--footer-text-color);
+}
