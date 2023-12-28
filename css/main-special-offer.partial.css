@@ -4,7 +4,7 @@
 
 .special-offer__annotation {
     font-size: 11px;
-    color: var(--annotattion-and-light-link-color);
+    color: var(--annotattion-color);
 }
 
 .special-offer__title {
@@ -13,7 +13,7 @@
 
 .special-offer__subtitle {
     font-size: 18px;
-    color: var(--subtitle-and-list-color);
+    color: var(--subtitle-color);
 }
 
 .special-offer__text {
@@ -26,12 +26,12 @@
 }
 
 .link-start {
-    color: var(--light-title-and-link-color);
-    background-color: var(--annotattion-and-light-link-color);
+    color: var(--light-link-color);
+    background-color: var(--link-color);
 }
 
 .link-more {
-    color: var(--footer-background-and-dark-link-and-list-color);
+    color: var(--dark-link-color);
     border: 1px solid;
-    border-color: var(--footer-background-and-dark-link-and-list-color);
+    border-color: var(--dark-link-color);
 }

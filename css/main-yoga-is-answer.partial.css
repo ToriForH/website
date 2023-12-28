@@ -1,3 +1,10 @@
+.yoga-is-answer {
+    background-image: url(../img/backgroud/yoga-is-answer.png);
+    background-size: cover;
+    min-height: 475px;
+    background-attachment: fixed;
+}
+
 .yoga-is-answer__content {
     border: 2px solid;
     border-color: var(--transform-border-color);
@@ -5,7 +12,7 @@
 
 .yoga-is-answer__content-title {
     font-size: 22px;
-    color: var(--light-title-and-link-color);
+    color: var(--light-title-color);
 }
 
 .yoga-is-answer__content-text {

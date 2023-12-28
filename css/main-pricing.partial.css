@@ -1,10 +1,10 @@
 .pricing {
-    background-color: var(--pricing-background-and-line-stretch-progress-color);
+    background-color: var(--pricing-background-color);
 }
 
 .pricing__main-annotation {
     font-size: 11px;
-    color: var(--additional-annotation-price-and-membership-color);
+    color: var(--pricing-annotation-color);
 }
 
 .pricing__main-title {
@@ -13,11 +13,11 @@
 
 .pricing__main-subtitle {
     font-size: 18px;
-    color: var(--subtitle-and-list-color);
+    color: var(--subtitle-color);
 }
 
 .pricing__content-item {
-    background-color: var(--light-title-and-link-color);
+    background-color: var(--pricing-item-backgroung-color);
 }
 
 .pricing__item-image {
@@ -35,25 +35,25 @@
 }
 
 .list__membership {
-    color: var(--additional-annotation-price-and-membership-color)
+    color: var(--price-and-membership-color)
 }
 
 .list__passes {
-    color: var(--annotattion-and-light-link-color);
+    color: var(--passes-color);
 }
 
 .list__online {
-    color: var(--additional-annotation-join-and-online-color);
+    color: var(--join-and-online-color);
 }
 
 .pricing__item-list .list-item {
-    color: var(--subtitle-and-list-color);
+    color: var(--light-list-color);
 }
 
 .pricing__item-link {
     font-size: 12px;
     text-decoration: none;
-    color: var(--footer-background-and-dark-link-and-list-color);
+    color: var(--dark-link-color);
     border: 1px solid;
-    border-color: var(--footer-background-and-dark-link-and-list-color);
+    border-color: var(--dark-link-color);
 }

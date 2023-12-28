@@ -1,7 +1,7 @@
 .news__main-annotation,
 .news__item-date {
     font-size: 11px;
-    color: var(--annotattion-and-light-link-color);
+    color: var(--annotattion-color);
 }
 
 .news__main-title {
@@ -10,7 +10,7 @@
 
 .news__main-subtitle {
     font-size: 18px;
-    color: var(--subtitle-and-list-color);
+    color: var(--subtitle-color);
 }
 
 .news__item-image {
@@ -29,5 +29,5 @@
 
 .news__item-link {
     font-size: 11px;
-    color: var(--footer-background-and-dark-link-and-list-color);
+    color: var(--dark-link-color);
 }

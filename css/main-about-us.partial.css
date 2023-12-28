@@ -1,5 +1,5 @@
 .about-header__annotation {
-    color: var(--annotattion-and-light-link-color);
+    color: var(--annotattion-color);
     font-size: 11px;
 }
 
@@ -14,15 +14,15 @@
 
 .about-us__content-title {
     font-size: 18px;
-    color: var(--subtitle-and-list-color);
+    color: var(--title-color);
 }
 
 .about-us__list-title {
-    color: var(--footer-background-and-dark-link-and-list-color);
+    color: var(--dark-list-color);
 }
 
 .about-us__list-line {
-    background-color: var(--annotattion-and-light-link-color);
+    background-color: var(--about-us-list-line-color);
 }
 
 .about-us__list-item {
@@ -30,5 +30,5 @@
 }
 
 .list-item-decoration {
-    color: var(--transform-background-and-list-and-line-color);
+    color: var(--list-decoration-color);
 }

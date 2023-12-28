@@ -3,7 +3,7 @@
 }
 
 .join-us__content-annotation {
-    color: var(--additional-annotation-join-and-online-color);
+    color: var(--join-us-annotation-color);
     font-size: 11px;
 }
 
@@ -13,7 +13,7 @@
 
 .join-us__content-subtitle {
     font-size: 18px;
-    color: var(--subtitle-and-list-color);
+    color: var(--subtitle-color);
 }
 
 .join-us__content-text {
@@ -25,12 +25,12 @@
 }
 
 .content-list__item {
-    color: var(--subtitle-and-list-color);
+    color: var(--light-list-color);
 }
 
 .join-us__content-link {
-    color: var(--footer-background-and-dark-link-and-list-color);
+    color: var(--dark-link-color);
     border: 1px solid;
-    border-bottom: var(--footer-background-and-dark-link-and-list-color);
+    border-bottom: var(--dark-link-color);
     text-decoration: none;
 }

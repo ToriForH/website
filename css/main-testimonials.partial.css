@@ -1,7 +1,7 @@
 .testimonials__main-annotation,
 .testimonials__carousel-date {
     font-size: 11px;
-    color: var(--annotattion-and-light-link-color);
+    color: var(--annotattion-color);
 }
 
 .testimonials__main-title {
@@ -10,7 +10,7 @@
 
 .testimonials__main-subtitle {
     font-size: 18px;
-    color: var(--subtitle-and-list-color);
+    color: var(--subtitle-color);
 }
 
 .testimonials__carousel-photo {

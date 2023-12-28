@@ -1,4 +1,5 @@
 @import url(global.css);
+@import url(controls.css);
 @import url(header.css);
 @import url(main-beauty-and-mind.partial.css);
 @import url(main-studio-offers.partial.css);

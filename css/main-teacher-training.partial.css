@@ -1,6 +1,6 @@
 .teacher__content-annotation {
     font-size: 11px;
-    color: var(--annotattion-and-light-link-color);
+    color: var(--annotattion-color);
 }
 
 .teacher__content-title {
@@ -19,6 +19,6 @@
 .teacher__content-link {
     font-size: 12px;
     text-decoration: none;
-    color: var(--light-title-and-link-color);
-    background-color: var(--annotattion-and-light-link-color);
+    color: var(--light-link-color);
+    background-color: var(--link-color);
 }

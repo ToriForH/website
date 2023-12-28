@@ -3,16 +3,24 @@
 }
 
 .footer__main-title {
-    color: var(--light-title-and-link-color);
+    color: var(--light-title-color);
 }
 
 .footer__menu-item,
 .footer__bottom-link {
-    color: var(--annotattion-and-light-link-color);
+    color: var(--link-color);
     text-decoration: none;
 }
 
 .footer__main-text,
 .footer__bottom-copyright {
     color: var(--footer-text-color);
+}
+
+.footer__main {
+    background-color: var(--footer-background-color);
+}
+
+.footer__bottom {
+    background-color: var(--footer-bottom-background-color);
 }

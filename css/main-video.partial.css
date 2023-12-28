@@ -1,0 +1,14 @@
+.video .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.video__item {
+    aspect-ratio: 16 / 9;
+}
+
+@media (min-width: 768px) {
+    .video .container {
+        padding: 60px 32px;
+    }
+}

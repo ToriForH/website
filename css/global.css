@@ -12,20 +12,35 @@
     font-size: 16px;
     --title-color: #1e2d4b;
     --dark-title-color: #151f36;
-    --light-title-and-link-color: #ffffff;
-    --footer-background-and-dark-link-and-list-color: #2f3547;
-    --subtitle-and-list-color: #727682; 
+    --light-title-color: #ffffff;
+    --light-link-color: #ffffff;
+    --beauty-and-mind-backgroung-color: #ffffff;
+    --pricing-item-backgroung-color: #ffffff;
+    --footer-background-color: #2f3547;
+    --dark-link-color: #2f3547;
+    --dark-list-color: #2f3547; 
+    --subtitle-color: #727682; 
+    --light-list-color: #727682;
+    --transform-text-color: #727682; 
     --dark-subtitle-color: #2f3547b5;
     --light-text-color: #ffffffc7;
     --dark-text-color: #151f3685;
     --text-color: #868b9b;
     --additional-text-color: #6e7486;
-    --annotattion-and-light-link-color: #5995c5;
-    --additional-annotation-price-and-membership-color: #e3c39c;
-    --additional-annotation-join-and-online-color: #cbd0b0;
+    --annotattion-color: #5995c5;
+    --link-color: #5995c5;
+    --about-us-list-line-color: #5995c5;
+    --passes-color: #5995c5;
+    --pricing-annotation-color: #e3c39c;
+    --price-and-membership-color: #e3c39c;
+    --join-us-annotation-color: #cbd0b0;
+    --join-and-online-color: #cbd0b0;
     --classes-level-color: #2f35475e;
-    --pricing-background-and-line-stretch-progress-color: #fceedd;
-    --transform-background-and-list-and-line-color: #dceafd;
+    --pricing-background-color: #fceedd;
+    --line-stretch-progress-color: #fceedd;
+    --transform-background-color: #dceafd;
+    --list-decoration-color: #dceafd;
+    --line-color: #dceafd;
     --header-color: #2f3547b3;
     --footer-text-color: #ffffff99;
     --footer-bottom-background-color: #292e3f;
@@ -54,4 +69,12 @@ hr {
     border: 0;
     width: 55px;
     height: 3px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
 }

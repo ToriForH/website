@@ -1,5 +1,5 @@
 .classes__main-annotation {
-    color: var(--annotattion-and-light-link-color);
+    color: var(--annotattion-color);
     font-size: 11px;
 }
 
@@ -9,7 +9,7 @@
 
 .classes__main-subtitle {
     font-size: 18px;
-    color: var(--subtitle-and-list-color);
+    color: var(--subtitle-color);
 }
 
 .classes__carousel-annotation {

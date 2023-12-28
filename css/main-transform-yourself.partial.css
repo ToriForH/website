@@ -1,5 +1,5 @@
 .transform-yourself__container {
-    background-color: var(--transform-background-and-list-and-line-color);
+    background-color: var(--transform-background-color);
 }
 
 .transform-yourself__container-image {
@@ -12,12 +12,12 @@
 
 .transform-yourself__container-text {
     font-size: 18px;
-    color: var(--subtitle-and-list-color);
+    color: var(--transform-text-color);
 }
 
 .transform-yourself__container-link {
     font-size: 12px;
     text-decoration: none;
-    color: var(--light-title-and-link-color);
-    background-color: var(--annotattion-and-light-link-color);
+    color: var(--light-link-color);
+    background-color: var(--link-color);
 }
