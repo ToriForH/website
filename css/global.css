@@ -14,7 +14,7 @@
     --dark-title-color: #151f36;
     --light-title-color: #ffffff;
     --light-link-color: #ffffff;
-    --beauty-and-mind-backgroung-color: #ffffff;
+    --light-backgroung-color: #ffffff;
     --pricing-item-backgroung-color: #ffffff;
     --footer-background-color: #2f3547;
     --dark-link-color: #2f3547;
@@ -56,8 +56,9 @@ img {
 }
 
 h1, h2 {
-    font-family: 'Marcellus', sans-serif;
+    font-family: 'Marcellus', serif;
     color: var(--title-color);
+    font-weight: 400;
 }
 
 iframe {
@@ -77,4 +78,11 @@ hr {
     padding: 0 24px;
     display: flex;
     flex-direction: column;
+}
+
+.annotation {
+    font-size: 11px;
+    color: var(--annotattion-color);
+    font-weight: 700;
+    letter-spacing: 2.2px;
 }

@@ -5,16 +5,8 @@
     padding-top: 60px;
 }
 
-.beauty-and-mind__content-annotation {
-    font-size: 11px;
-    color: var(--annotattion-color);
-    font-weight: 700;
-    letter-spacing: 2.2px;
-}
-
 .beauty-and-mind__content-title {
     font-size: 46px;
-    font-weight: 400;
     padding-top: 20px;
 }
 
@@ -28,10 +20,6 @@
 .beauty-and-mind__content-link {
     color: var(--light-link-color);
     background-color: var(--link-color);
-    font-size: 12px;
-    font-weight: 700;
-    text-decoration: none;
-    margin-top: 35px;
 }
 
 .beauty-and-mind__image {

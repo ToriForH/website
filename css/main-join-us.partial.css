@@ -1,27 +1,38 @@
 .join-us {
     background-color: var(--join-background-color);
+    padding: 90px 0;
 }
 
 .join-us__content-annotation {
     color: var(--join-us-annotation-color);
-    font-size: 11px;
 }
 
 .join-us__content-title {
     font-size: 30px;
+    padding-top: 20px;
 }
 
 .join-us__content-subtitle {
     font-size: 18px;
     color: var(--subtitle-color);
+    padding-top: 25px;
 }
 
 .join-us__content-text {
     color: var(--text-color);
+    padding-top: 25px;
+}
+
+.join-us__content-list {
+    padding-top: 20px;
+    list-style: none;
 }
 
 .content-list__item-image {
     width: 20px;
+    height: 24px;
+    color: black;
+    fill: black; /*rgb(203, 208, 176);*/
 }
 
 .content-list__item {
@@ -30,7 +41,11 @@
 
 .join-us__content-link {
     color: var(--dark-link-color);
-    border: 1px solid;
-    border-bottom: var(--dark-link-color);
+    border: 1px solid var(--dark-link-color);
     text-decoration: none;
+    margin-top: 20px;
+}
+
+.join-us__carousel {
+    padding-top: 30px;
 }
