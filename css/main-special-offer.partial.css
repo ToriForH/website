@@ -1,5 +1,10 @@
 .special-offer {
-    background-color: var(--special-offer-background);
+    background-image: url(../img/backgroud/special-offer.png);
+    background-size: cover;
+    min-height: 461px;
+    background-attachment: fixed;
+    background-position: 73% 50%;
+    padding: 130px 0;
 }
 
 .special-offer__annotation {
@@ -9,6 +14,7 @@
 
 .special-offer__title {
     font-size: 46px;
+    padding: 20px 0 45px;
 }
 
 .special-offer__subtitle {
@@ -18,6 +24,17 @@
 
 .special-offer__text {
     color: var(--additional-text-color);
+    padding-top: 25px;
+}
+
+.special-offer__text-discount {
+    font-style: italic;
+}
+
+.special-offer__links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .special-offer__link {
@@ -28,10 +45,44 @@
 .link-start {
     color: var(--light-link-color);
     background-color: var(--link-color);
+    width: 179px;
+    margin-bottom: -35px;
 }
 
 .link-more {
     color: var(--dark-link-color);
     border: 1px solid;
     border-color: var(--dark-link-color);
+}
+
+@media (min-width: 768px) {
+    .special-offer {
+        padding: 195px 0 197px;
+    }
+
+    .special-offer .content {
+        width: 50%;
+        padding-right: 15px;
+    }
+
+    .special-offer__title {
+        font-size: 64px;
+        width: 50%
+    }
+}
+
+@media (min-width: 992px) {
+    .special-offer {
+        padding: 260px 0 265px;
+    }
+
+    .special-offer__title {
+        font-size: 72px;
+    }
+}
+
+@media (min-width: 1006px) {
+    .special-offer__title {
+        width: 100%
+    }
 }

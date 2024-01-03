@@ -1,5 +1,7 @@
 .pricing {
     background-color: var(--pricing-background-color);
+    padding: 90px 0;
+    text-align: center;
 }
 
 .pricing__main-annotation {
@@ -9,6 +11,7 @@
 
 .pricing__main-title {
     font-size: 30px;
+    padding: 20px 0 25px;
 }
 
 .pricing__main-subtitle {
@@ -16,8 +19,22 @@
     color: var(--subtitle-color);
 }
 
+.pricing__content {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
 .pricing__content-item {
-    background-color: var(--pricing-item-backgroung-color);
+    background-color: var(--pricing-item-background-color);
+    margin: 20px 0 0;
+    padding: 31px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 330px;
 }
 
 .pricing__item-image {
@@ -27,11 +44,18 @@
 .pricing__item-title {
     font-size: 22px;
     color: var(--dark-title-color);
+    padding: 20px 0;
 }
 
 .pricing__item-text {
     font-style: italic;
     color: var(--text-color);
+}
+
+.pricing__item-list {
+    list-style: none;
+    padding: 20px 0 0;
+    font-weight: 700;
 }
 
 .list__membership {
@@ -50,10 +74,31 @@
     color: var(--light-list-color);
 }
 
+.list-item {
+    font-weight: 400;
+}
+
 .pricing__item-link {
     font-size: 12px;
     text-decoration: none;
     color: var(--dark-link-color);
     border: 1px solid;
     border-color: var(--dark-link-color);
+}
+
+@media (min-width: 768px) {
+    .pricing {
+        padding: 105px 0;
+    }
+
+    .pricing__main-title {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 992px) {
+    .pricing__content {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
 }

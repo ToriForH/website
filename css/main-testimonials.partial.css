@@ -1,3 +1,8 @@
+.testimonials {
+    padding: 90px 0;
+    text-align: center;
+}
+
 .testimonials__main-annotation,
 .testimonials__carousel-date {
     font-size: 11px;
@@ -6,11 +11,25 @@
 
 .testimonials__main-title {
     font-size: 30px;
+    padding: 20px 0 25px;
 }
 
 .testimonials__main-subtitle {
     font-size: 18px;
     color: var(--subtitle-color);
+}
+
+.testimonials__content {
+    padding-top: 45px;
+}
+
+.testimonials__carousel-item {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+    max-width: 770px;
+    margin: auto;
 }
 
 .testimonials__carousel-photo {
@@ -21,8 +40,21 @@
 .testimonials__carousel-client-name {
     font-size: 22px;
     color: var(--dark-title-color);
+    padding: 20px 0;
 }
 
 .testimonials__carousel-comment {
     color: var(--text-color);
+}
+
+.testimonials__carousel-date {
+    padding: 20px 0;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+}
+
+@media (min-width: 768px) {
+    .testimonials__carousel-photo {
+        width: 120px;
+    }
 }

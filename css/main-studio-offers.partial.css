@@ -25,6 +25,7 @@
 .studio-offers__item-line {
     background-color: var(--line-color);
     margin: 15px 0;
+    width: 20%;
 }
 
 .stretch-line,
@@ -41,7 +42,6 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        padding: 32px;
     }
 
     .studio-offers__item {

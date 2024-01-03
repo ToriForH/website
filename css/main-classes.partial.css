@@ -1,23 +1,50 @@
+.classes {
+    padding: 90px 0 30px;
+    text-align: center;
+}
+
 .classes__main-annotation {
     color: var(--annotattion-color);
-    font-size: 11px;
 }
 
 .classes__main-title {
     font-size: 30px;
+    padding-top: 20px;
 }
 
 .classes__main-subtitle {
     font-size: 18px;
     color: var(--subtitle-color);
+    padding-top: 25px;
+}
+
+.classes__carousel {
+    padding-top: 45px;
+}
+
+.classes__carousel-item {
+    padding: 0 15px;
 }
 
 .classes__carousel-annotation {
-    font-size: 11px;
     color: var(--classes-level-color);
+    padding-top: 20px;
 }
 
 .classes__carousel-title {
     font-size: 22px;
     color: var(--dark-title-color);
+    padding-top: 20px;
+}
+
+.classes__carousel-photo-container {
+    aspect-ratio: 298 / 300;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.classes__carousel-photo {
+    height: 100%;
+    width: auto;
 }

@@ -31,11 +31,12 @@
     padding-top: 25px;
 }
 
-.about-us__lists-item {
+.about-us__content-list {
     padding-top: 60px;
+    color: var(--text-color);
 }
 
-.about-us__list {
+.about-us__list-items {
     list-style: none;
 }
 
@@ -49,12 +50,42 @@
 .about-us__list-line {
     background-color: var(--about-us-list-line-color);
     margin: 15px 0;
-}
-
-.about-us__list-item {
-    color: var(--text-color);
+    width: 20%;
 }
 
 .list-item-decoration {
-    color: var(--list-decoration-color);
+    color: var(--about-list-decoration-color);
+}
+
+@media (min-width: 768px) {
+    .about-us {
+        padding-bottom: 105px;
+    }
+
+    .about-us__main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+
+    .about-header__title {
+        font-size: 34px;
+        padding: 20px 0 0;
+    }
+
+    .about-us__main-text {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .about-us__content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+    }
+
+    .about-us__content-lists {
+        display: flex;
+        gap: 60px;
+    }
 }

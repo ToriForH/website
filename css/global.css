@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans&display=swap'); /* Marcellus, Open Sans*/
 
+.beauty-and-mind,
+.studio-offers,
+.about-us,
+.join-us,
+.yoga-is-answer,
+.classes,
+.video,
+.transform-yourself,
+.teacher,
+.pricing,
+.photos,
+.testimonials {
+    display: none;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -14,8 +29,8 @@
     --dark-title-color: #151f36;
     --light-title-color: #ffffff;
     --light-link-color: #ffffff;
-    --light-backgroung-color: #ffffff;
-    --pricing-item-backgroung-color: #ffffff;
+    --light-background-color: #ffffff;
+    --pricing-item-background-color: #ffffff;
     --footer-background-color: #2f3547;
     --dark-link-color: #2f3547;
     --dark-list-color: #2f3547; 
@@ -39,7 +54,8 @@
     --pricing-background-color: #fceedd;
     --line-stretch-progress-color: #fceedd;
     --transform-background-color: #dceafd;
-    --list-decoration-color: #dceafd;
+    --about-list-decoration-color: #dceafd;
+    --join-list-decoration-color: #cbd0b0;
     --line-color: #dceafd;
     --header-color: #2f3547b3;
     --footer-text-color: #ffffff99;
@@ -48,6 +64,8 @@
     --meditate-line-color: #dceadf;
     --transform-border-color: #f8f8f8;
     --special-offer-background: #e6e5e4;
+    --teacher-background-color: #f8f8f8;
+    --news-line-color: #f8f8f8;
 }
 
 img {
@@ -85,4 +103,20 @@ hr {
     color: var(--annotattion-color);
     font-weight: 700;
     letter-spacing: 2.2px;
+}
+
+.subtitle {
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        padding: 0 40px;
+    }
 }
