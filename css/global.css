@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Open+Sans&display=swap'); /* Marcellus, Open Sans*/
 
-.beauty-and-mind,
-.studio-offers,
-.about-us,
-.join-us,
-.yoga-is-answer,
-.classes,
-.video,
-.transform-yourself,
-.teacher,
-.pricing,
-.photos,
-.testimonials {
-    display: none;
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
