@@ -55,6 +55,8 @@
     --testimonials-button-hover-background-color: #000000;
     --testimonials-button-color: #8eb7d8;
     --testimonials-button-hover-color: #5474ab;
+    --header-hover-color: #1e2d4b;
+    --header-burger-color: #1e2d4b;
 }
 
 img {
@@ -96,6 +98,11 @@ hr {
 
 .subtitle {
     font-weight: 500;
+}
+
+.fixed {
+    width: 100%;
+    position: fixed;
 }
 
 @media (min-width: 768px) {
