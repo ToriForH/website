@@ -6,41 +6,59 @@
             <p class="testimonials__main-subtitle subtitle">We appreciate your warm words and thoughts.</p>
         </div>
         <div class="testimonials__content">
-            <div class="testimonials__content-carousel testimonials__carousel">
-                <article class="testimonials__carousel-item">
-                    <img class="testimonials__carousel-photo" src="img/clients/lucile-peterson.png"
-                        alt="photo of client">
-                    <h2 class="testimonials__carousel-client-name">Lucile Peterson</h2>
-                    <p class="testimonials__carousel-comment">
-                        "Thanks to yoga classes at the Atta Yoga studio,
-                        I have become much calmer and more organized in my thoughts and actions.
-                        Yoga is really good option for those who don't like the usual active gym workouts.
-                        I love my yoga classes at Atta!"
-                    </p>
-                    <p class="testimonials__carousel-date">DECEMBER 15, 2021</p>
-                </article>
-                <article class="testimonials__carousel-item">
-                    <img class="testimonials__carousel-photo" src="img/clients/gillian-adler.png" alt="photo of client">
-                    <h2 class="testimonials__carousel-client-name">Gillian Adler</h2>
-                    <p class="testimonials__carousel-comment">
-                        "I have been practicing at Yoga Atta Studio for two years now.
-                        During this time, I have found many friends and like-minded people here.
-                        I like that this is not just a yoga studio, but a whole community that
-                        promotes a healthy approach to mind, body, and life overall"
-                    </p>
-                    <p class="testimonials__carousel-date">MARCH 02, 2022</p>
-                </article>
-                <article class="testimonials__carousel-item">
-                    <img class="testimonials__carousel-photo" src="img/clients/ashley-parson.png" alt="photo of client">
-                    <h2 class="testimonials__carousel-client-name">Ashley Parson</h2>
-                    <p class="testimonials__carousel-comment">
-                        "Yoga is my path to a healthy and flexible body. I tried different
-                        sports, but they quickly tired me. Yoga helps me to be in good
-                        shape without exhausting phisycal exertion. In addition, I like the
-                        studio itself where classes are held and the coaches — very pleasant and polite people."
-                    </p>
-                    <p class="testimonials__carousel-date">NOVEMBER 12, 2022</p>
-                </article>
+            <div id="testimonials__carousel" class="testimonials__content-carousel carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <article class="testimonials__carousel-item">
+                        <img class="testimonials__carousel-photo" src="img/clients/lucile-peterson.png"
+                            alt="photo of client">
+                        <h2 class="testimonials__carousel-client-name">Lucile Peterson</h2>
+                        <p class="testimonials__carousel-comment">
+                            "Thanks to yoga classes at the Atta Yoga studio,
+                            I have become much calmer and more organized in my thoughts and actions.
+                            Yoga is really good option for those who don't like the usual active gym workouts.
+                            I love my yoga classes at Atta!"
+                        </p>
+                        <p class="testimonials__carousel-date">DECEMBER 15, 2021</p>
+                    </article>
+                  </div>
+                  <div class="carousel-item">
+                    <article class="testimonials__carousel-item">
+                        <img class="testimonials__carousel-photo" src="img/clients/gillian-adler.png" alt="photo of client">
+                        <h2 class="testimonials__carousel-client-name">Gillian Adler</h2>
+                        <p class="testimonials__carousel-comment">
+                            "I have been practicing at Yoga Atta Studio for two years now.
+                            During this time, I have found many friends and like-minded people here.
+                            I like that this is not just a yoga studio, but a whole community that
+                            promotes a healthy approach to mind, body, and life overall"
+                        </p>
+                        <p class="testimonials__carousel-date">MARCH 02, 2022</p>
+                    </article>
+                  </div>
+                  <div class="carousel-item">
+                    <article class="testimonials__carousel-item">
+                        <img class="testimonials__carousel-photo" src="img/clients/ashley-parson.png" alt="photo of client">
+                        <h2 class="testimonials__carousel-client-name">Ashley Parson</h2>
+                        <p class="testimonials__carousel-comment">
+                            "Yoga is my path to a healthy and flexible body. I tried different
+                            sports, but they quickly tired me. Yoga helps me to be in good
+                            shape without exhausting phisycal exertion. In addition, I like the
+                            studio itself where classes are held and the coaches — very pleasant and polite people."
+                        </p>
+                        <p class="testimonials__carousel-date">NOVEMBER 12, 2022</p>
+                    </article>
+                  </div>
+                </div>
+                <button class="carousel-control-prev testimonials__button" type="button" data-bs-target="#testimonials__carousel" data-bs-slide="prev">
+                    <svg class="testimonials__carousel-button">
+                        <use href="img/arrow-prev.svg#prev"></use>
+                    </svg>
+                </button>
+                <button class="carousel-control-next testimonials__button" type="button" data-bs-target="#testimonials__carousel" data-bs-slide="next">
+                    <svg class="testimonials__carousel-button">
+                        <use href="img/arrow-next.svg#next"></use>
+                    </svg>
+                </button>
             </div>
         </div>
     </div>

@@ -51,6 +51,10 @@
     --special-offer-background: #e6e5e4;
     --teacher-background-color: #f8f8f8;
     --news-line-color: #f8f8f8;
+    --testimonials-button-background-color: #151f36;
+    --testimonials-button-hover-background-color: #000000;
+    --testimonials-button-color: #8eb7d8;
+    --testimonials-button-hover-color: #5474ab;
 }
 
 img {
