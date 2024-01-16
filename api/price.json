@@ -1,0 +1,77 @@
+[
+    {
+        "id": "1",
+        "title": "Monthly Membership",
+        "description": "Get your monthly membership and practice yoga without limits.",
+        "img": "img/yoga-pose-icons/monthly-membership.svg",
+        "className": "list__membership",
+        "prices": [
+            {
+                "option": "9-Month Unlimited",
+                "price": "$1200"
+            },
+            {
+                "option": "6-Month Unlimited",
+                "price": "$600"
+            },
+            {
+                "option": "3-Month Unlimited",
+                "price": "$350"
+            },
+            {
+                "option": "1-Month Unlimited",
+                "price": "$120"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Class Passes",
+        "description": "Choose the number of sessions you need and use them within 3 months.",
+        "img": "img/yoga-pose-icons/class-passes.svg",
+        "className": "list__passes",
+        "prices": [
+            {
+                "option": "1 Class",
+                "price": "$80"
+            },
+            {
+                "option": "5 Classes",
+                "price": "$125"
+            },
+            {
+                "option": "7 Classes",
+                "price": "$150"
+            },
+            {
+                "option": "10 Classes",
+                "price": "$250"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Online Classes",
+        "description": "Practice yoga online from anywhere in the world with our coaches.",
+        "img": "img/yoga-pose-icons/online-classes.svg",
+        "className": "list__online",
+        "prices": [
+            {
+                "option": "1 Class",
+                "price": "$70"
+            },
+            {
+                "option": "5 Classes",
+                "price": "$100"
+            },
+            {
+                "option": "Private Lesson",
+                "price": "$90"
+            },
+            {
+                "option": "Monthly",
+                "price": "$120"
+            }
+        ]
+    }
+]

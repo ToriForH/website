@@ -86,6 +86,11 @@
     border-color: var(--dark-link-color);
 }
 
+.pricing__item-link:hover {
+    background-color: var(--dark-link-color);
+    color: var(--pricing-item-background-color);
+}
+
 @media (min-width: 768px) {
     .pricing {
         padding: 105px 0;

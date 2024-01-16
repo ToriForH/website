@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "date": "12.06.2022",
+        "title": "Hatha Yoga: Myths and Reality",
+        "text": "Hatha yoga, translated from Sanskrit, means the following: Ha and Tha are two primordial energy flows that are opposite in quality and, interacting with each other, create the whole diversity of the manifested being..."
+    },
+    {
+        "id": "2",
+        "img": {
+            "src": "img/news/spine-health.png",
+            "alt": "woman in lotus pose lay her corp forward"
+        },
+        "title": "Yoga for Spine Health",
+        "text": "85% of the world's inhabitants suffer from osteochondrosis. Regrettably, the main reason for such diseases is better living conditions."
+    },
+    {
+        "id": "3",
+        "img": {
+            "src": "img/news/padmasana.png",
+            "alt": "photo of Budha statue"
+        },
+        "title": "Padmasana — Lotus Pose",
+        "text": "When we say \"yoga,\" we usually imagine a stern hermit and ascetic, sitting in a lotus position with a straight back and a stone face."
+    }
+]

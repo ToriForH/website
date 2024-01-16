@@ -20,10 +20,19 @@
 
 .classes__carousel {
     padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+}
+
+.classes__carousel__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
 }
 
 .classes__carousel-item {
-    padding: 0 15px;
+    max-height: 436px;
 }
 
 .classes__carousel-annotation {
@@ -38,7 +47,8 @@
 }
 
 .classes__carousel-photo-container {
-    aspect-ratio: 298 / 300;
+    height: 195px;
+    width: 195px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -48,3 +58,95 @@
     height: 100%;
     width: auto;
 }
+
+.classes__button {
+    opacity: 1;
+    display: none;
+}
+
+.classes__carousel-button {
+    border-radius: 50%;
+    background-color: var(--testimonials-button-background-color);
+    color: var(--testimonials-button-color);
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+}
+
+.classes__carousel-button:hover {
+    background-color: var(--testimonials-button-hover-background-color);
+    color: var(--testimonials-button-hover-color);
+}
+
+@media (min-width: 768px) {
+    .classes__carousel-button {
+        height: 32px;
+        width: 32px;
+    }
+}
+
+@media (min-width: 1199px) {
+    .classes__carousel-button {
+        background-color: transparent;
+    }
+    
+    .classes__carousel-button:hover {
+        background-color: transparent;
+    }
+}
+
+/* carousel 
+.classes__carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.classes__carousel__inner {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease-in-out;
+}
+
+.classes__carousel .classes__carousel-item {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.classes__carousel-content {
+    max-width: 200px;
+}
+
+@media (min-width: 768px) {
+    .classes__carousel .classes__carousel-item {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .classes__carousel .classes__carousel-item {
+        flex: 0 0 25%;
+    }
+}
+
+.classes__carousel classes__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.classes__carousel carousel-control-prev {
+    left: 10px;
+}
+
+.classes__carousel carousel-control-next {
+    right: 10px;
+}*/

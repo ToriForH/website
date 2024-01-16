@@ -55,6 +55,11 @@
     border-color: var(--dark-link-color);
 }
 
+.link-more:hover {
+    background-color: var(--dark-link-color);
+    color: var(--pricing-item-background-color);
+}
+
 @media (min-width: 768px) {
     .special-offer {
         padding: 195px 0 197px;
